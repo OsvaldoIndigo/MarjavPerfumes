@@ -1,0 +1,32 @@
+@import "tailwindcss";
+
+@theme {
+  /* Tipografías de marca */
+  --font-brand: "Cinzel", Georgia, serif;
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Plus Jakarta Sans", -apple-system, BlinkMacSystemFont, sans-serif;
+
+  /* Paleta oficial MARJAV PERFUMES */
+  --color-obsidian: #181816;
+  --color-ivory: #FAF9F6;
+  --color-sand: #F2EFE9;
+  --color-champagne: #C8A27C;
+  --color-champagne-dark: #A8825C;
+  --color-stone: #6E6D68;
+  --color-hairline: #E5E2DC;
+}
+
+@layer base {
+  html {
+    font-family: var(--font-sans);
+    scroll-behavior: smooth;
+    color: var(--color-obsidian);
+    background-color: var(--color-ivory);
+  }
+
+  /* Mejora de accesibilidad: anillo de foco visible al navegar con teclado */
+  :focus-visible {
+    outline: 2px solid var(--color-champagne-dark);
+    outline-offset: 2px;
+  }
+}

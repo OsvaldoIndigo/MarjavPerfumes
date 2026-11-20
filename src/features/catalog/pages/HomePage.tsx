@@ -50,7 +50,7 @@ export function HomePage() {
     <div>
       {/* Hero editorial */}
       <section className="border-b border-hairline bg-sand/35">
-        <div className="max-w-6xl mx-auto px-4 sm:px-6 py-16 sm:py-24 flex flex-col items-center text-center">
+        <div className="max-w-xl mx-auto px-4 sm:px-6 py-16 sm:py-10 flex flex-col items-center text-center">
           <BrandLogo variant="light" layout="stacked" className="mb-8" />
 
           <span className="text-[11px] uppercase tracking-[0.24em] text-champagne-dark font-medium">
@@ -62,7 +62,7 @@ export function HomePage() {
           </h1>
 
           <p className="mt-5 text-sm sm:text-base text-stone max-w-xl leading-relaxed">
-            Descubre nuestra colección curada de fragancias originales. Elige tus favoritas y coordina tu entrega de forma rápida y directa por WhatsApp.
+            Descubre nuestra colección de fragancias originales. Elige tus favoritas y coordina tu entrega de forma rápida y directa por WhatsApp.
           </p>
 
           <div className="mt-8 flex flex-wrap justify-center gap-4">
